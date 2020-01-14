@@ -30,23 +30,28 @@
 # print(deleted_item)
 #
 
-number_list = [45, 12, 3, -455, 22]
-letter_list = ['s', 'w', 't', 'a']
-
-number_list.sort()
-letter_list.sort()
-new_list = letter_list
-
-print(number_list)
-print(letter_list)
-print(new_list)
-
-number_list.reverse()
-letter_list.reverse()
-
-number_list.append(letter_list)
-
-print(number_list)
-print(letter_list)
+# number_list = [45, 12, 3, -455, 22]
+# letter_list = ['s', 'w', 't', 'a']
+#
+# number_list.sort()
+# letter_list.sort()
+# new_list = letter_list
+#
+# print(number_list)
+# print(letter_list)
+# print(new_list)
+#
+# number_list.reverse()
+# letter_list.reverse()
+#
+# number_list.append(letter_list)
+#
+# print(number_list)
+# print(letter_list)
 
 # Test push
+
+some_list = [12, 35.35, 'hello']
+another_list = some_list[0:3]
+
+print(another_list)
