@@ -1,3 +1,5 @@
+import random
+
 #
 # while x >= 1:
 #     print(x)
@@ -40,8 +42,17 @@ my_list = [1, 2, 3]
 #    print(item)
 # print('Another code')
 
-for item in my_list:
-   if item == 2:
-       continue
-   print(item)
-print('Another code')
+# for item in my_list:
+#    if item == 2:
+#        continue
+#    print(item)
+# print('Another code')
+
+number = 0
+number_list = [] # пустой список
+
+while number != 7:
+    number = random.randint(0, 10)  # значение от 0 до 10
+    number_list.append(number)
+
+print(number_list)

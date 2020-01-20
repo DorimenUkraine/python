@@ -51,7 +51,12 @@
 
 # Test push
 
-some_list = [12, 35.35, 'hello']
-another_list = some_list[0:3]
+# some_list = [12, 35.35, 'hello']
+# another_list = some_list[0:3]
+#
+# print(another_list)
 
-print(another_list)
+# list comprehension (генератор списка, списковое включение)
+A = list(range(1, 101, 1)) # формируем первый список
+B = [x for x in A if x % 7 == 0] # формируем новый список за счет нового, включить только кратные 7 числа
+print(B)
