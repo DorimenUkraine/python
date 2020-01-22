@@ -40,6 +40,7 @@
 # # print(a.__add__(b)) # Тоже самое, что a + b. тип данных не изменяется.
 # #
 
+
 class Chain():
     def __init__(self, number_of_items):
         self.number_of_items = number_of_items
