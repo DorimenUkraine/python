@@ -30,7 +30,6 @@ guess_the_number = random.randint(1,50)
 # Всего попыток будет 6. Установим базовое состояние - 0
 number_of_attempts = 0
 
-# N.B. Надо вывести пользователю, что достигли предела попыток
 while number_of_attempts <= 6:
     # Просим пользователя ввести число (любое, но желательно, чтобы от 1 до 50
     input_number = int(input("Введите число от 1 до 50 "))
@@ -46,6 +45,7 @@ while number_of_attempts <= 6:
             print(f'Sorry! You input number {input_number} and is\'n right!')
             number_of_attempts += 1
             print(f'Number of attempts: {number_of_attempts}')
+            # Надо вывести пользователю, что достигли предела попыток
             if number_of_attempts == 7:
                 print('Вы достигли предела попыток')
                 break
@@ -55,6 +55,7 @@ while number_of_attempts <= 6:
         print(f'Sorry! Your number {input_number} is out of range and is\'n right!')
         number_of_attempts += 1
         print(f'Number of attempts: {number_of_attempts}')
+        # Надо вывести пользователю, что достигли предела попыток
         if number_of_attempts == 7:
             print('Вы достигли предела попыток')
             break
