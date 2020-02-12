@@ -106,7 +106,7 @@ def main():
     circle(0, 0, 2)
 
 
-def circle(step, angle, number_of_circle):
+def circle(step=0, angle=0, number_of_circle=1):
     turtle.left(angle)  # каждый раз сдвигаю угол рисования круга. угол задается при вызове функции
     turtle.penup()  # передвигаю черепашку без отображения следа
     turtle.goto(0, 0)  # устанавливаю начало рисования круга в базовую точку
